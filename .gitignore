@@ -1,0 +1,63 @@
+# Python 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 字节码与工具缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.tox/
+.nox/
+.cache/
+pip-cache/
+.ipynb_checkpoints/
+
+# 本地环境变量与 API 密钥；示例文件只能包含占位值
+.env
+.env.*
+!.env.example
+
+# Python 构建与打包产物
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# 临时日志与临时文件
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# 测试覆盖率与本地测试报告
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+coverage.json
+lcov.info
+.hypothesis/
+test-results/
+test-reports/
+reports/local/
+pytest-report.xml
+junit.xml
+latest-test-results.json
+startup-test-results.json
+network-test-results.json
+reproducibility-results.json
+repository-before.json
+repository-verification.json
